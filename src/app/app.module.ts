@@ -3,10 +3,20 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TopoComponent } from './topo/topo.component';
+import { PainelComponent } from './painel/painel.component';
+// import { TemtativasComponent } from './temtativas/temtativas.component';
+import { ProgressoComponent } from './progresso/progresso.component';
+import { TentativasComponent } from './tentativas/tentativas.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TopoComponent,
+    PainelComponent,
+    // TemtativasComponent,
+    ProgressoComponent,
+    TentativasComponent
   ],
   imports: [
     BrowserModule,
